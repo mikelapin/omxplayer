@@ -17,7 +17,7 @@ compile:
 
 .PHONY : configure
 configure: 
-	cd ffmpeg; \
+	   cd ffmpeg; \
 	CFLAGS="$(CFLAGS) ${INCLUDES}" \
 	LDFLAGS="" \
   ./configure \
