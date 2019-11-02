@@ -11,7 +11,7 @@ copy:
 	$(HOST)-strip *.so*
 
 .PHONY : compile
-compile: 
+compile:
     cd ffmpeg; \
 	make -j$(shell nproc)
 
