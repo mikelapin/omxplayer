@@ -13,7 +13,7 @@ copy:
 .PHONY : compile
 compile: 
     cd ffmpeg; \
-	+$(MAKE) -j$(shell nproc) -C ffmpeg
+	make -j$(shell nproc)
 
 .PHONY : configure
 configure: 
